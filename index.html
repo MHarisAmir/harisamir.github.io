@@ -1,0 +1,528 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Malik Muhammad Haris Amir</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <style>
+        /* Add custom styles for interactive elements */
+        .collapsible {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .active,
+        .collapsible:hover {
+            background-color: #ccc;
+        }
+
+        .collapsible-content {
+            padding: 10px 15px;
+            /* display: none;
+            overflow: hidden; */
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .collapsible-content ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .collapsible-content li {
+            margin-bottom: 10px;
+        }
+
+        .field.error input,
+        .field.error textarea {
+            border-color: red;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 12px;
+        }
+
+        /* Content Container */
+        .content-container {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        /* Text Container */
+        .content-text {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        /* Image Container */
+        .content-image {
+            max-width: 100%;
+            /* Adjust the percentage as needed */
+        }
+
+        /* Image Styling */
+        .content-image img {
+            max-width: 40%;
+            /* Ensure image does not exceed container width */
+            height: auto;
+            /* Maintain aspect ratio */
+            border-radius: 8px;
+            /* Optional: Adds rounded corners to images */
+        }
+        /* Remove default list styling */
+.book-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.book-list li {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+/* Style for stars */
+.stars {
+    color: #ffc107; /* Change star color to yellow */
+    font-size: 1.2em; /* Adjust size as needed */
+}
+
+        /* Intro Section */
+        #intro {
+            background-image: url('/images/background.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 100px 20px;
+            color: #fff;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .content-container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .content-text {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .content-image {
+                max-width: 80%;
+                /* Increase max-width for smaller screens */
+            }
+        }
+
+        @media (max-width: 768px) {
+    button.collapsible {
+        font-size: 14px; /* Adjust button font size */
+    }
+
+    .collapsible-content {
+        padding: 8px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    button.collapsible {
+        font-size: 12px; /* Further adjust button font size for very small screens */
+    }
+
+    .collapsible-content {
+        padding: 5px; /* Further adjust padding for very small screens */
+    }
+}
+
+    </style>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Malik Muhammad Haris Amir</h1>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Portfolio</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#talks">Talks</a></li>
+                <li><a href="#books">BookShelf</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/haris-amir-ab8991a8/" target=”_blank” class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            </ul>
+        </nav>
+
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- About Me -->
+            <section id="about">
+                <header class="major">
+                    <h2>About Me</h2>
+                </header>
+                <p class="content-image" style="text-align: center;">
+                    <img src="images/about.jpg" alt="About Me" />
+                </p>
+                <div class="content-container">
+                    <div class="content-text">
+                        <p> Hello, my name is Haris Amir and I am a radar signal processing engineer who is passionate about driving innovation in the 
+                            operation and management of radar systems. I am originally from Pakistan and have recently completed my PhD from Sant'Anna School of Advanced
+                            Studies in Pisa, Italy. I am currently working as a Researcher in the same lab. <br><br>
+                            My current research focuses on using advanced signal processing algorithms for the development of next generation MIMO radar systems assisted by Photonics.
+                            I am specifically working on developing signal processing algorithms for radar systems and to collaborate with the teams that are working on microwave photonics 
+                            systems and integratrated photonics for the realization of next generation of radar systems on integrated photonics chips. By realizing these radar systems, I believe we will 
+                            be able to enhance the performance of radar systems in terms of range-resolution, and azimuth resolution, which has a huge potential in civilian applications especially Autonomus Driving. <br><br>
+                            When I am not doing research, you can find me exploring new places and cultures. I am particualarly fond of outdoor activities, such as hiking, trekking, cycling. I also love to travel to different places and explore the
+                            world. I am also an avid reader of a non-ficional historical and philosophical literature, always seeking fresh prospective and insights.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section id="education">
+                <header class="major">
+                    <h2>Education</h2>
+                </header>
+                <p class="content-image" style="text-align: center;">
+                    <img src="images/education.jpg" alt="Education" />
+                </p>
+                <div class="content-container">
+                    <div class="content-text">
+                        <h3> PhD in Emerging Digital Technologies</h3>
+                        <h5>Scuola Superiore Sant'Anna, Pisa, Italy </h5>
+                        <h6>10/2020 - 02/2024</h6>
+                        <p><b>Thesis Title:</b>Photonics‑based Coherent MIMO Radar Networks: Design, Analysis, and
+                            Implementation of Signal Algorithms for
+                            Ground‑based and Spaceborne Applications</p>
+                        <h3> Erasmus Mundus Joint Master Degree (EMJMD) in Photonic Integrated Circuits, Sensors, and
+                            Networks, </h3>
+                        <h5>Aston University (UK), Osaka University (JAPAN), Scuola Superiore Sant'Anna (ITALY)</h5>
+                        <h6>09/2018 - 08/2020</h6>
+                        <p><b>Thesis Title:</b> Target RCS Modelling and Detection Performance Analysis of
+                            Photonics‑based Coherent MIMO Radar Networks
+                        <b>Major Subjects:</b> Modelling and Characterization of Fiber Photonics Devices, Analysis
+                            of Nonlinearities in Optical Fiber
+                            Communication Systems, Microwave Photonics, Machine Learning</p>
+                        <h3> Master in Electrical Engineering (RF & Microwave) </h3>
+                        <h5>National University of Sciences and Technology (NUST), Pakistan</h5>
+                        <h6>09/2015 - 08/2017</h6>
+                        <p><b>Thesis Title:</b> Sensitivity Analysis for Different Orientations of Split Cylinder Resonator<br>
+                        <b>Major Subjects:</b> Electromagnetics, Semiconductors, Microwaves, Photonics, Antennas</p>
+                        <h3> Bachelor in Electrical Engineering (Electronics) </h3>
+                        <h5>Air University, Islamabad, Pakistan</h5>
+                        <h6>09/2010 - 08/2014</h6>
+                        <b>Major Subjects:</b> Digital Signal Processing, Electromagnetics, Electronics</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience -->
+            <section id="experience">
+                <header class="major">
+                    <h2>Work Experience</h2>
+                </header>
+                <p class="content-image" style="text-align: center;">
+                    <img src="images/experience.jpg" alt="Education" />
+                </p>
+                <div class="content-container">
+                    <div class="content-text">
+                        <h3>Researcher, Scuola Superiore Sant'Anna, Pisa, Italy</h3>
+                        <h6>01/2024 - Present</h6>
+                        <ul>
+                            <li> on the design and development of Signal Processing Algorithms for coherent MIMO radar
+                                networks
+                                mounted on top of drones.</li>
+                            <li> Working on the development of a target detection algorithm based on the Constant False
+                                Alarm Rate (CFAR)
+                                criterion in a distributed drone scenario. </li>
+                            <li>Working on target-tracking algorithms using Kalman Filters, Particle Filters, and
+                                Track-before-Detect Algorithms. </li>
+                            <li>Working on Imaging of extended targets with multiple scatterers from Distributed MIMO
+                                Radar mounted on drones.</li>
+                            <li> Study and Development of different machine learning techniques for the RCS estimation of extended targets. </li>
+                            <li>Working on design and development of signal processing algorithms for distributed MIMO SAR systems for high
+                                resolution-imaging of the ocean surface.</li>
+                        </ul>
+
+                        <h3>PhD Candidate, Scuola Superiore Sant'Anna, Pisa, Italy</h3>
+                        <h6>10/2020 - 12/2023</h6>
+                        <ul>
+                            <li> Worked on Modelling of Extended Targets for different close‑to‑reality maritime scenarios, i.e., shore‑based and
+                                shipborne MIMO radars.</li>
+                            <li> Identification of Key Performance Indicators for design and development of coherent MIMO radar networks. </li>
+                            <li>Study and optimization of detection strategies for coherent MIMO radars i.e., CFAR detectors. </li>
+                            <li>Study and optimization of multiple target tracking strategies i.e., Filter-based tracking, Track-before-Detect.</li>
+                            <li>Study and analysis of MIMO techniques for Spaceborne Synthetic Aperture Radars for high-resolution imaging of
+                                Earth surface.</li>
+                        </ul>
+
+                        <h3>Exchanged Researcher, Delft University of Technology, Delft, Netherlands</h3>
+                        <h6>10/2022 - 03/2023</h6>
+                        <ul>
+                            <li>Worked on SwarmSAR signal processing for generating high-resolution images of Earth's surface.</li>
+                            <li>Resolving Cross-range ambiguities and improving azimuth resolution for highly decorrelating targets such as, ocean
+                                surfaces using SwarmSAR. </li>
+
+                        </ul>
+                       
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Publications -->
+            <section id="publications">
+                <header class="major">
+                <h2> <a href="https://scholar.google.nl/citations?user=YbMliJMAAAAJ&hl=en" style="color: black;"> Publications</a></h2>
+                </header>
+                <div class="content-container">
+                    <div class="content-text">
+                        <h3>JOURNAL PAPERS</h3>
+                        <ul>
+                            <li> <b>Amir, M.M.H.</b>, Maresca, S., Pandey, G., Malacarne, A., Bogoni, A. and Scaffardi, M., 2023. 
+                                <a href="https://www.mdpi.com/2411-5134/8/4/99" style="color: black;">Performance Evaluation of Photonics-Based Coherent MIMO Radar Systems for Maritime Surveillance</a>. Inventions, 8(4), p.99.</li>
+                            <li> Reza, M., <b>Amir, M.M.H.</b>, Imran, M., Pandey, G., Camponeschi, F., Maresca, S., Scotti, F., Serafino, G., Malacarne, A., Porzi, C. and Ghelfi, P., 2022. 
+                                <a href="https://www.mdpi.com/2079-9292/11/24/4151" style="color: black;">Multi-static multi-band synthetic aperture radar (SAR) constellation based on integrated photonic circuits</a>. Electronics, 11(24), p.4151. </li>
+                            <li>Serafino, G., Maresca, S., Porzi, C., Scotti, F., Malacarne, A., <b>Amir, M.M.H.</b>, Ghelfi, P. and Bogoni, A., 2022. 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9779524" style="color: black;">Maritime field trial of a dual-band silicon integrated photonics-based radar</a>. IEEE Journal of Selected Topics in Quantum Electronics, 28(5), pp.1-10. </li>
+                            <li> Pandey, G., Malacarne, A., Maresca, S., <b>Amir, M.M.H.</b>, Bogoni. A., and Scaffardi, M., 2024. 
+                                <a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-49-6-1528" style="color: black;">Coherent Multi-Band MIMO Radar: Robustness Analysis to SSMF-based RF Signal Delivery</a>. Optics Letters.</li>
+                        </ul>
+                        <h3>CONFERENCE PAPERS</h3>
+                        <ul>
+                            <li> <b>Amir, M.M.H.</b>, Maresca, S., Serafino, G., Ghelfi, P. and Bogoni, A., 2022, April. 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9784525" style="color: black;">Modelling of Extended Targets with Dual-Band MIMO Radar Networks</a>. 
+                                In 2021 18th European Radar Conference (EuRAD) (pp. 345-348). IEEE.</li>
+                            <li> <b>Amir, M.M.H.</b>, Maresca, S., Serafino, G., Ghelfi, P. and Bogoni, A., 2021, June. 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9466202" style="color: black;">Target RCS Modeling and CFAR Detection Performance with Photonics-based Distributed Multi-Band MIMO Radars</a>. 
+                                In 2021 21st International Radar Symposium (IRS) (pp. 1-9). IEEE. </li>
+                            <li> <b>Amir, M.M.H.</b>, Xu, H., Bogoni. A., and Dekker, P.L., 2023. 
+                                On high-resolution imaging of fast-decorrelating targets using a distributed ‘SwarmSAR’ architecture. 
+                                In 2024 International Geoscience and Remote Sensing Symposium (IGARSS). IEEE. <b>(Accepted)</b> </li>
+                            <li> Maresca, S., <b>Amir, M.M.H.</b>, Scotti, F., Scaffardi, M., Ghelfi, P., Bogoni, A., and Malacarne, A., 2024. 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/10549749" style="color: black;">Adaptive Beamforming Applied to Coherent MIMO Radio-over-Fiber Systems</a>.
+                                 In 2024 Radar Conference (RadarConf). IEEE.</li>
+                            <li> Fawad, A., <b>Amir, M.M.H.</b>, Maresca, S., Malacarne, A., Bogoni, A., and Scaffardi, M., 2024. 
+                                RCS Modelling of Extended Targets Using Supervised Learning. In 2024 European Radar Conference (EuRAD). IEEE. <b>(Accepted)</b>. </li>
+                            <li>Serafino, G., Maresca, S., <b>Amir, M.M.H.</b>, Malacarne, A., Ghelfi, P. and Bogoni, A., 2022, September. 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9924779" style="color: black;">Key Performance Indicators for System Analysis of MIMO Radars with Widely Separated Antennas</a>.
+                                 In 2022 19th European Radar Conference (EuRAD) (pp. 1-4).
+                                IEEE.</li>
+                            <li>S. Maresca, A. Malacarne, <b>M.M.H. Amir</b>, G. Pandey, A. Bogoni and M. Scaffardi, 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/10380917" style="color: black;">Analysis of Adaptive Beamforming Techniques for Photonics-based Coherent MIMO Radars</a>., 
+                                2023 IEEE International Workshop on Technologies for Defense and Security (TechDefense), Rome, Italy, 2023, pp. 7-11.</li>
+                            <li>Malacarne, A., Maresca, S., <b>Amir, M.M.H.</b>, Pandey, G., Ghelfi, P. and Bogoni, A., 2023, September. 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/10289478" style="color: black;">Robustness of Photonics-based Coherent Multi-band MIMO Radar to Fiber-based Signal Distribution</a>. 
+                                In 2023 20th European Radar Conference (EuRAD). IEEE.</li>
+                            <li>Maresca, S., Scotti, F., <b>Amir, M.M.H.</b>, Pandey, G., Malacarne, A., Bogoni, A., Scaffardi, M. and Bogoni, A., 2023, June. 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/10244616" style="color: black;">Analysis of Sea Clutter with a Dual-Band Photonics-based Coherent Radar Network</a>.
+                                 In OCEANS 2023-Limerick (pp. 1-8). IEEE.</li>
+                            <li>Rinaldi, L., Camponeschi, F., <b>Amir, M.M.H.</b>, Maresca, S., Reza, M., Pandey, G., Imran, M., Scaffardi, M., and Bogoni, A., 2023. 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/10360653" style="color: black;">Towards System-on-Chip Integration of Photonic-based Coherent Distributed Synthetic Aperture Radar</a>. 
+                                In 2023 IEEE Photonics Conference (IPC). IEEE.</li>
+                            <li>Masreca, S., Malacarne, A., <b>Amir, M.M.H.</b>, Ahmed, F., Pandey, G., Bogoni, A., and Scaffardi, M., 2024. 
+                                Radar Detection in Coherent Multi-Sensor Multi-Frequency Systems. 
+                                In 6th International Workshop on the Theory of Computational Sensing and its applications to Radar, 
+                                Multimodal Sensing, and Imaging (CoSeRa 2024). <b>(Accepted)</b></li>
+                            <li>Scotti, F., Porzi, C., Ghelfi, P., Falconi, F., <b>Amir, M.M.H.</b>, Maresca, S., Borgarino, M. and Bogoni, A., 2021, November. 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9639397" style="color: black;">Indoor field trial in X band of a photonics-based multiband radar on a packaged silicon chip</a>. 
+                                In 2021 International Topical Meeting on Microwave Photonics (MWP) (pp. 1-4). IEEE.</li>
+                            <li>Reza, M., Maresca, S., Scotti, F., Pandey, G., Imran, M., Serafino, G., <b>Amir, M.M.H.</b>, Camponeschi, F., Ghelfi, P., Bogoni, A. and Scaffardi, M., 2022, October. 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9997654" style="color: black;">Multi-Static Multi-Band Synthetic Aperture Radar (SAR) Constellation Based on Photonic Processing</a>. 
+                                In 2022 IEEE International Topical Meeting on Microwave Photonics (MWP) (pp. 1-4). IEEE.</li>
+                            <li>Maresca, S., Serafino, G., Malacarne, A., Scotti, F., <b>Amir, M.M.H.</b>, Ghelfi, P. and Bogoni, A., 2022, September. 
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9905045" style="color: black;">Extended Target Tracking with a Photonics-Based Radar on a Packaged Silicon Chip</a>. 
+                                In 2022 23rd International Radar Symposium (IRS) (pp. 116-123). IEEE.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Research Projects -->
+            <section id="projects">
+                <header class="major">
+                    <h2>Research Projects</h2>
+                </header>
+                <div class="content-container">
+                    <div class="content-text">
+
+                        <h3>DISTRIBUTED DRONE</h3>
+                        <ul>
+                            <b>Objective: </b> Design and development of a photonics‑based multiband MIMO Radar System mounted on top of Drones for Targets,
+                                Detection, Size, Estimation, Tracking, and Imaging. <br>
+                                <b> Contributions: </b> Development of MIMO simulator for distributed drone-based MIMO radar system for performing target
+                                detection, tracking, and imaging in a 3D space.
+                        </ul>
+                        <h3>COSMOS: Photonics‑based Coherent SAR Constellation for Multistatic and Multispectral Satellite
+                            Earth Observation</h3>
+                        <ul>
+                            <b>Objective: </b> Design and development of photonics‑based multiband MIMO SAR constellation for high‑resolution observation of
+                                Earth's Surface. <br>
+                                <b> Contributions: </b>  Study of SAR signal processing algorithms, Implementation of SwarmSAR algorithm, Study and analysis of single
+                                pass SAR interferometry.
+                        </ul>
+
+                        <h3>ESTIMATOR: Design Optimization of Coherent MIMO Radar Networks Enabled by Photonics</h3>
+                        <ul>
+                            <b>Objective: </b> Design and implementation of MIMO radar signal processing chain for photonics‑based coherent multiband MIMO
+                            radar networks. <br>
+                            <b> Contributions: </b> Development of MIMO radar simulator for simulating extended maritime scenarios, RCS modeling of extended
+                            maritime targets, MIMO radar signal processing, and Simulation of close‑to‑reality scenarios for distributed and colocated MIMO
+                            radars.
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Talks -->
+            <section id="talks">
+                <header class="major">
+                    <h2>Talks</h2>
+                </header>
+                <p class="content-image" style="text-align: center;">
+                    <img src="images/talks.jpg" alt="Education" />
+                </p>
+                <div class="content-container">
+                    <div class="content-text">
+                        <h3> Target RCS Modeling and CFAR Detection Performance with Photonics-based Distributed Multi-Band MIMO Radars</h3>
+                        <p>Date: 21/June/2021<br>
+                        21st International Radar Symposium (IRS), Berlin, Germany</p>
+                        <h3> Modelling of Extended Targets with Dual-Band MIMO Radar Networks</h3>
+                        <p>Date: 4/May/2022<br>
+                        18th European Radar Conference (EuRAD) London, UK</p>
+                        <h3> Key Performance Indicators for System Analysis of MIMO Radars with Widely Separated Antennas</h3>
+                        <p>Date: 28/September/2022<br>
+                        19th European Radar Conference (EuRAD) Milan, Italy</p>
+                        <h3> On high-resolution imaging of fast-decorrelating targets using a distributed ‘SwarmSAR’ architecture</h3>
+                        <p>Date: 11/July/2024<br>
+                        Iternational Geoscience and Remote Sensing Symposium (IGARSS), Athens, Greece</p>
+                    </div>
+                </div>
+            </section>
+<!-- Books -->
+<section id="books">
+    <header class="major">
+        <h2>BookShelf</h2>
+    </header>
+    <p class="content-image" style="text-align: center;">
+        <img src="images/books.jpg" alt="Education" />
+    </p>
+    <div class="content-container">
+        <div class="content-text">
+            <ul class="book-list">
+                <li><b>Thus Spoke Zarathustra</b>, Fredrich Nietzsche, <span class="stars">★★★★★</span></li>
+                <li><b>The First and Last Freedom</b>, Jiddu Krishnamurti, <span class="stars">★★★★</span></li>
+                <li><b>The Reconstruction of Religious Thoughts in Islam</b>, Dr. Allama Muhammad Iqbal, <span class="stars">★★★★★</span></li>
+                <li><b>Sapiens</b>, Yual Noah Harrari, <span class="stars">★★★★</span></li>
+                <li><b>Homo Deus</b>, Yual Noah Harrari, <span class="stars">★★★★</span></li>
+                <li><b>21 Lessons of 21st Century</b>, Yual Noah Harrari, <span class="stars">★★★★</span></li>
+                <li><b>Riwayat e Tamadum e Qadeem (Ancient Traditions and Civilizations)</b>, Ali Abbas Jalalpuri, <span class="stars">★★★★</span></li>
+                <li><b>The Crowds</b>, Gustave Le Bon, <span class="stars">★★★★</span></li>
+                <li><b>Tuesdays with Morrie</b>, Mitch Albom, <span class="stars">★★★★</span></li>
+                <li><b>Forty Rules of Love</b>, Elif Shafak, <span class="stars">★★★★</span></li>
+                <li><b>The Alchemist</b>, Paulo Coelho, <span class="stars">★★★★</span></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+            <!-- contact -->
+            <section id="contact">
+                <header class="major">
+                    <h2>Contact</h2>
+                </header>
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <a href="mailto:mmharis.amir@gmail.com" class="fa fa-envelope">  &nbsp; mmharis.amir@gmail.com</a><br>
+                        <a href="https://www.google.com/maps/place/Pisa,+Italy" class="fa fa-map-marker"> &nbsp; Pisa, Italy</a><br>
+                        <a href="https://www.linkedin.com/in/haris-amir-ab8991a8/e" class="fa fa-linkedin"> &nbsp; Haris Amir</a><br>
+                        <a href="https://scholar.google.com/citations?user=YbMliJMAAAAJ&hl=en" class="fa fa-google-scholar"> &nbsp;Google Scholar</a>
+                    </div>
+                </div>
+            </section>
+            
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        window.onload = function () {
+            var navbar = document.getElementById("nav");
+            var sticky = navbar.offsetTop;
+            var header = document.getElementById("header");
+
+            window.onscroll = function () {
+                myFunction();
+            };
+
+            function myFunction() {
+                if (window.scrollY >= sticky) {
+                    navbar.classList.add("sticky");
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        };
+
+
+    </script>
+</body>
+
+</html>
